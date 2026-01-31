@@ -1,14 +1,16 @@
 :root {
-    --txt-size1: 4rem;
+    --txt-size1: 5rem;
     --txt-size2: 3rem;
     --txt-size3: 2rem;
     --txt-size4: 1.6rem;
-    --bold: 700;
-    --light: 300;
+    --bold: 900;
+    --light: 500;
     
     --bg-color: #f6f6f6;
     --dark: #101010;
     --gray: #494949;
+
+    --transition: all 0.3s ease-in-out;
 }
 
 * {
@@ -49,11 +51,12 @@ html {
     align-items: center;
     font-size: var(--txt-size3);
     gap: 4rem;
-    width: 40%;
+    width: 30%;
 }
 
 .nav-links li {
     list-style: none;
+    padding: 1rem;
 
 }
 
@@ -61,8 +64,18 @@ html {
     text-decoration: none;
     color: var(--dark);
     font-weight: var(--bold);
+    transition: var(--transition);
+    text-transform: uppercase;
 }
 
 .nav-bar img {
     width: 5rem;
 }
+
+.nav-links li:hover {
+    background: #49494917;
+    transition: var(--transition);
+    border-radius: 8px;
+    transform: translateY(-5px);
+}
+
