@@ -19,35 +19,42 @@
 
 html {
     font-size: 62.5%;
-    font-family: "Kreon", serif;;
+    font-family: "Kreon", serif;
 }
 
 /* Header Section */
 
 .header-wrapper {
     background-color: var(--bg-color);
-    padding: 2rem 35rem;
+    padding: 2rem;
 }
 
+.nav-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 
 .nav-bar {
     display: flex;
     justify-content: space-around;
-    gap: 10rem;
+    align-items: center;
+    gap: 4rem;
+    flex-wrap: wrap;
 }
 
 .nav-links {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 10rem;
-    width: 50%;
     font-size: var(--txt-size3);
+    gap: 4rem;
+    width: 40%;
 }
 
 .nav-links li {
     list-style: none;
+
 }
 
 .nav-links li a {
