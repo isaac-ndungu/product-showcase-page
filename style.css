@@ -2,7 +2,7 @@
     --txt-size1: 5rem;
     --txt-size2: 3rem;
     --txt-size3: 2rem;
-    --txt-size4: 1.6rem;
+    --txt-size4: 1.5rem;
     --bold: 900;
     --light: 500;
     
@@ -215,5 +215,13 @@ body {
 .style-with-card2 img{
     width: 100%;
     height: auto;
+}
+
+.card-txt {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: var(--light);
+    font-size: var(--txt-size4);
 }
 
