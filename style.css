@@ -5,7 +5,7 @@
     --txt-size4: 1.5rem;
     --bold: 900;
     --light: 500;
-    
+
     --bg-color: #f6f6f6;
     --dark: #101010;
     --gray: #494949;
@@ -92,6 +92,7 @@ body {
 
 .hero-wrapper {
     display: flex;
+    flex-wrap: wrap;
     width: 85%;
     margin: 2rem auto;
 }
@@ -116,7 +117,7 @@ body {
 
 .hero-content h2 {
     font-size: var(--txt-size3);
-    font-weight: var(--light); 
+    font-weight: var(--light);
     text-align: right;
     margin-bottom: 2rem;
 }
@@ -157,7 +158,7 @@ body {
     border-radius: 1mm;
 }
 
-.hero-btn2 a{
+.hero-btn2 a {
     text-decoration: none;
     font-size: var(--txt-size3);
     text-transform: uppercase;
@@ -196,7 +197,7 @@ body {
 .style-with-cards {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
 }
 
 .style-with-card1 {
@@ -207,12 +208,12 @@ body {
     width: 18%;
 }
 
-.style-with-card1 img{
+.style-with-card1 img {
     width: 100%;
     height: auto;
 }
 
-.style-with-card2 img{
+.style-with-card2 img {
     width: 100%;
     height: auto;
 }
@@ -225,3 +226,49 @@ body {
     font-size: var(--txt-size4);
 }
 
+
+/* Arrivals section */
+.arrivals-section {
+    margin-bottom: 2rem;
+}
+
+.arrivals-wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.arrivals-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrivals-header h2 {
+    font-size: 6rem;
+    font-weight: var(--bold);
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.arrivals-header p {
+    text-transform: uppercase;
+    font-size: var(--txt-size4);
+    font-weight: var(--light);
+    width: 40%;
+
+}
+
+.arrivals-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.arrival-card {
+    width: 23%;
+}
+
+.arrival-card img {
+    width: 100%;
+    height: auto;
+}
