@@ -1,0 +1,61 @@
+:root {
+    --txt-size1: 4rem;
+    --txt-size2: 3rem;
+    --txt-size3: 2rem;
+    --txt-size4: 1.6rem;
+    --bold: 700;
+    --light: 300;
+    
+    --bg-color: #f6f6f6;
+    --dark: #101010;
+    --gray: #494949;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Kreon", serif;;
+}
+
+/* Header Section */
+
+.header-wrapper {
+    background-color: var(--bg-color);
+    padding: 2rem 35rem;
+}
+
+
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    gap: 10rem;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10rem;
+    width: 50%;
+    font-size: var(--txt-size3);
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: var(--dark);
+    font-weight: var(--bold);
+}
+
+.nav-bar img {
+    width: 5rem;
+}
