@@ -164,3 +164,56 @@ body {
     color: var(--dark);
     font-weight: var(--light);
 }
+
+
+/* Style with section */
+
+.style-with-section {
+    margin: 0 auto;
+}
+
+.style-with-wrapper {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 20rem;
+}
+
+.style-with-header h3 {
+    position: relative;
+    left: 40%;
+    font-size: var(--txt-size3);
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.style-with-header h2 {
+    position: relative;
+    left: 40%;
+    font-size: 10rem;
+    font-weight: var(--bold);
+    text-transform: uppercase;
+}
+
+.style-with-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+}
+
+.style-with-card1 {
+    width: 25%;
+}
+
+.style-with-card2 {
+    width: 18%;
+}
+
+.style-with-card1 img{
+    width: 100%;
+    height: auto;
+}
+
+.style-with-card2 img{
+    width: 100%;
+    height: auto;
+}
