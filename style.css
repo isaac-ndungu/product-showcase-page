@@ -24,6 +24,10 @@ html {
     font-family: "Kreon", serif;
 }
 
+body {
+    background-color: var(--bg-color);
+}
+
 /* Header Section */
 
 .header-wrapper {
