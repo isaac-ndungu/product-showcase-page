@@ -48,6 +48,17 @@
         font-size: 1.6rem;
     }
 
+    .arrival-cards {
+        justify-content: space-evenly;
+        padding: 8rem;
+    }
+
+    .arrival-card {
+        flex: 0 0 37.5%;
+        margin-bottom: 2rem;
+        padding: 4rem;
+    }
+
 }   
 
 @media (max-width: 56rem) {
@@ -103,5 +114,10 @@
     .style-with-card2 {
         padding: 5rem 12rem;
         flex: 0 0 100%;
+    }
+
+    .arrival-card {
+        flex: 0 0 100%;
+        padding: 5rem 10rem;
     }
 }

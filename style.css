@@ -259,13 +259,14 @@ body {
     font-size: var(--txt-size4);
     font-weight: var(--light);
     width: 40%;
+    padding-top: 4rem;
 
 }
 
 .arrivals-cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     gap: 1rem;
 }
 
