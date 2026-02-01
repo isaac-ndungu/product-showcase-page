@@ -282,13 +282,12 @@ body {
 
 /* Footer section */
 footer {
-    margin: 0 auto;
     padding-top: 10rem;
 }
 
 .footer-wrapper {
     width: 90%;
-    
+    margin: 0 auto;
 }
 
 .footer-links {
@@ -296,15 +295,14 @@ footer {
     justify-content: space-around;
     align-items: center;
     margin-bottom: 3rem;
+    flex-wrap: wrap;
 }
 
-.footer-links img {
-    width: 10rem;
-}
 
 .links {
     font-size: var(--txt-size4);
     font-weight: var(--light);
+    text-align: center;
 }
 
 

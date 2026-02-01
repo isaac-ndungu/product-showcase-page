@@ -59,6 +59,9 @@
         padding: 4rem;
     }
 
+    .links {
+        flex: 0 0 50%;
+    }
 }   
 
 @media (max-width: 56rem) {
