@@ -1,0 +1,58 @@
+@media (max-width: 80rem) {
+    /* max-width: 1280px */
+    html {
+        font-size: 56.25%;
+    }
+
+    .hero-img {
+        width: 50rem;
+        height: auto;
+    }
+
+    .hero-btn1,
+    .hero-btn2 {
+        padding: 1rem;
+    }
+}
+
+
+@media (max-width: 67.5rem) {
+    /* max-width: 1080px */
+    html {
+        font-size: 50%;
+    }
+    .hero-img {
+        width: 45rem;
+        height: auto;
+    }
+
+    
+
+}   
+
+@media (max-width: 56rem) {
+    /* max-width: 896px */
+    html {
+        font-size: 43.75%;
+    }
+
+    .hero-img {
+        width: 43rem;
+        height: auto;
+    }
+     .hero-content h1 {
+        margin-right: 2rem;
+        font-size: 4rem;
+    }
+
+    
+}
+
+@media (max-width: 42.5rem){
+    /* max-width: 680px */
+    html {
+        font-size: 37.5%;
+    }
+
+    
+}
