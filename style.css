@@ -102,10 +102,12 @@ body {
     width: 60rem;
     height: auto;
     border-radius: 6px;
+    flex: 0 0 50%;
 }
 
 .hero-content {
     padding: 5rem;
+    flex: 0 0 50%;
 }
 
 .hero-content h1 {
