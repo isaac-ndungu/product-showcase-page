@@ -26,7 +26,27 @@
         height: auto;
     }
 
+    .style-with-wrapper {
+        width: 80%;
+    }
+   
+    .style-with-card1,
+    .style-with-card2 {
+        flex: 0 0 50%;
+        padding: 5rem 12rem;
+    }
+
+    .style-with-header {
+        padding-left: 30rem;
+    }
+
+    .style-with-header h2 {
+        font-size: 7rem;
+    }
     
+    .style-with-header h3 {
+        font-size: 1.6rem;
+    }
 
 }   
 
@@ -45,7 +65,14 @@
         font-size: 4rem;
     }
 
-    
+    .style-with-card1,
+    .style-with-card2 {
+        padding: 5rem;
+    }
+
+    .style-with-header {
+        padding-left: 20rem;
+    }
 }
 
 @media (max-width: 42.5rem){
@@ -54,5 +81,9 @@
         font-size: 37.5%;
     }
 
-    
+    .style-with-card1,
+    .style-with-card2 {
+        padding: 5rem 12rem;
+        flex: 0 0 100%;
+    }
 }
