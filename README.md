@@ -19,3 +19,9 @@ This project is a static e-commerve product showcase page that simulates a real 
 - Responsive design that adapts from the desktop layout to mobile viewports
 
 ## Screenshots 
+
+![page landing](media/page-landing.png)
+
+![style with section](media/style-with-screenshot.png)
+
+![new arrivals](media/new-in.png)
